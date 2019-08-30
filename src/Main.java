@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        Box box = new Box();
+        IDefining box = new Box();
         box.add(new Candy("Грильяж", 300, 100, "Красный Октябрь"));
         box.add(new JellyBean("Вкусный мармелад", 800, 150, 1200));
         box.add(new Gingerbread("Пряник", 400, 200, "шоколадный"));
